@@ -117,8 +117,8 @@ func (g *GeoM) Scale(x, y float64) {
 
 // Translate translates the matrix by (tx, ty).
 func (g *GeoM) Translate(tx, ty float64) {
-	g.tx += tx
-	g.ty += ty
+	g.tx += 0
+	g.ty += 0
 }
 
 // Rotate rotates the matrix by theta.
